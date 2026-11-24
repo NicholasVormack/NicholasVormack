@@ -1,0 +1,46 @@
+### Nicholas Vormack
+
+Independent IT consultant in Daytona Beach, FL — ten years supporting small
+businesses and private clients: Windows, networking, security, hardware, data.
+B.S. Computer Science, MBA. I build tools to understand problems properly, then
+document them so the next person does not have to reverse-engineer my thinking.
+
+---
+
+## What to look at first
+
+### [WallStreetVerse](https://github.com/NicholasVormack/WallStreetVerse) · [live demo](https://nicholasvormack.github.io/WallStreetVerse/)
+
+A multiplayer trading-floor world with a server-authoritative simulation engine.
+Three connected zones on a 20 Hz tick loop: client prediction and reconciliation,
+snapshot interpolation, and portal-based zone transfers gated behind single-use
+Redis tokens.
+
+`TypeScript` `Phaser 3` `Colyseus` `Node` `PostgreSQL` `Redis`
+
+### [ReconX](https://github.com/NicholasVormack/ReconX)
+
+A dependency-free network surface scanner that explains what it finds. Every open
+port carries a severity and a one-line rationale, the host gets a letter grade,
+and results export to JSON, CSV, Markdown or a self-contained HTML report. Optional
+Nmap enrichment, TLS certificate inspection, and no third-party packages at all.
+
+`Python` `sockets` `concurrency` `security` — 55 unit tests
+
+### [NoteMaster](https://github.com/NicholasVormack/NoteMaster)
+
+A MERN note-taking app for video-anchored notes: rich-text editing against a
+YouTube timestamp, server-side search, tags and pinning. The interesting part is
+the cleanup — a leaked database password, a login that issued tokens for wrong
+passwords, and a missing ownership check on every note route, each documented in
+the README with the fix.
+
+`React` `Node` `Express` `MongoDB`
+
+## How I work
+
+I care about the parts that are easy to skip: making the failure modes explicit,
+writing the README before the polish, and being honest in documentation about what
+is finished and what is not.
+
+📫 [n.vormack@gmail.com](mailto:n.vormack@gmail.com) · [LinkedIn](https://linkedin.com/in/nvorm)
