@@ -1,6 +1,6 @@
 ### Nicholas Vormack
 
-Independent IT consultant in Daytona Beach, FL — ten years supporting small
+Independent IT consultant — ten years supporting small
 businesses and private clients: Windows, networking, security, hardware, data.
 B.S. Computer Science, MBA. I build tools to understand problems properly, then
 document them so the next person does not have to reverse-engineer my thinking.
