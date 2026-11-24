@@ -9,6 +9,17 @@ document them so the next person does not have to reverse-engineer my thinking.
 
 ## What to look at first
 
+### [VECTOR](https://github.com/NicholasVormack/vector-terminal) · [live demo](https://nicholasvormack.github.io/vector-terminal/)
+
+A research terminal for markets that never got one: Old School and RS3 Grand Exchange
+items, crypto and graded collectibles, every gp figure also priced in dollars. The
+candles, axes, crosshair and heatmap are hand-written SVG — no charting library — and
+the same event-driven engine backs four venues with their real costs: 2% GE tax and buy
+limits, 10bps taker fees, whole-unit item sizing against fractional coin sizing. When a
+metric has no data behind it the panel says so instead of printing a zero.
+
+`TypeScript` `React` `Vite` — no charting, UI or CSS library
+
 ### [WallStreetVerse](https://github.com/NicholasVormack/WallStreetVerse) · [live demo](https://nicholasvormack.github.io/WallStreetVerse/)
 
 A multiplayer trading-floor world with a server-authoritative simulation engine.
