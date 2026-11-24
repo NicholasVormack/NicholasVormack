@@ -38,15 +38,16 @@ Nmap enrichment, TLS certificate inspection, and no third-party packages at all.
 
 `Python` `sockets` `concurrency` `security` — 55 unit tests
 
-### [NoteMaster](https://github.com/NicholasVormack/NoteMaster)
+### [NoteMaster](https://github.com/NicholasVormack/NoteMaster) · [live demo](https://notemaster-6b0lj3.freebuff.site)
 
-A MERN note-taking app for video-anchored notes: rich-text editing against a
-YouTube timestamp, server-side search, tags and pinning. The interesting part is
-the cleanup — a leaked database password, a login that issued tokens for wrong
+A note-taking app for video-anchored notes: rich-text editing against a YouTube
+timestamp, server-side search, tags and pinning. The interesting part is the
+cleanup — a leaked database password, a login that issued tokens for wrong
 passwords, and a missing ownership check on every note route, each documented in
-the README with the fix.
+the README with the fix. The live demo runs the same client against a Workers + D1
+build of the API, so it works without a MongoDB instance behind it.
 
-`React` `Node` `Express` `MongoDB`
+`React` `Node` `Express` `MongoDB` `Cloudflare Workers` `D1`
 
 ## How I work
 
